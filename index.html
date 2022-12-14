@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Dạy nghề Thành Râu" />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Dạy nghề Thành Râu</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="./index.html ">
+        <img class="logo" alt="Omnifood logo" src="img/LOGORED.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">Trang chủ</a></li>
+          <li>
+            <a class="main-nav-link" href="./detailCourse.html"
+              >Chi tiết khoá học</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Liên hệ</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#cta"
+              >Để lại thông tin liên hệ</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Cơ sở đào tạo nghề Thành Râu</h1>
+            <ul>
+              <li class="hero-description-fix">
+                Bạn chán việc phả đi làm thuê cho người khác.
+              </li>
+              <li class="hero-description-fix">
+                Công việc không tự chủ khiến bạn không có thời gian cho gia.
+                đình.
+              </li>
+              <li class="hero-description-fix">
+                Bạn muốn kinh doanh quán đồ ăn chín nhưng chưa biết bắt đầu từ
+                đâu.
+              </li>
+            </ul>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Chi tiết khoá học</a
+            >
+
+            <a href="#how" class="btn btn--outline">Xem thêm &darr;</a>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/muctieu01.jpg" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+
+              <img
+                src="img/muctieu01.jpg"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </picture>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <!-- <span class="subheading">How it works</span> -->
+          <h2 class="heading-secondary">Tham gia nhóm Zalo</h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <ul>
+              <li class="step-description">
+                ĐỂ BIẾT THÔNG TIN CHI TIẾT KHOÁ HỌC HÃY THAM GIA NHÓM ZALO BẰNG
+                CÁCH ẤN LIÊN KẾT
+                <a href="https://zalo.me/g/jytouy168"
+                  >https://zalo.me/g/jytouy168</a
+                >
+                NÀY NHÉ
+              </li>
+              <li class="step-description">
+                LIÊN HỆ QUA SĐT, ZALO - 0961201988
+              </li>
+            </ul>
+          </div>
+
+          <div class="step-img-box">
+            <img
+              src="img/qr-code-styling.png"
+              class="step-img"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Để lại thông tin liên hệ</h2>
+
+              <form
+                class="cta-form"
+                id="sign-up"
+                method="POST"
+                action="https://sheetdb.io/api/v1/t1ud76oa615vm"
+              >
+                <div>
+                  <label for="full-name">Họ và Tên</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Nguyễn Văn A"
+                    name="data[Ho va Ten]"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="phone">Số điện thoại</label>
+                  <input
+                    id="phone"
+                    type="text"
+                    placeholder="03737272"
+                    name="data[So dien thoai]"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="address">Địa chỉ</label>
+                  <input
+                    id="address"
+                    type="text"
+                    placeholder="VD: Võ Cường, TP. Bắc Ninh"
+                    name="data[Cong viec]"
+                  />
+                </div>
+
+                <button type="submit" class="btn btn--form">Xác nhận</button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Omnifood logo" src="img/LOGO.jpg" />
+          </a>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Omnifood, Inc.
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Địa chỉ</p>
+          <address class="contacts">
+            <p class="address">17 Đường Lê Thái Tổ, Võ Cường, TP. Bắc Ninh</p>
+            <p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.523405714861!2d106.05871047451548!3d21.171356882867112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313509552103c9bf%3A0x6ee1ce26e45e7fc0!2zMTcgxJAuIEzDqiBUaMOhaSBU4buVLCBWw7UgQ8aw4budbmcsIELhuq9jIE5pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1670655299813!5m2!1svi!2s"
+                width="300"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <ul class="footer-nav">
+            <li class="footer-nav-link-fb">
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/profile.php?id=100088644720462&mibextid=LQQJ4d"
+                ><ion-icon
+                  class="social-icon-fb"
+                  name="logo-facebook"
+                ></ion-icon
+              ></a>
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/profile.php?id=100088644720462&mibextid=LQQJ4d"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <ul class="footer-nav">
+            <li class="footer-nav-link-tt">
+              <a
+                class="footer-link"
+                href="https://www.tiktok.com/@daynghethanhrau"
+                ><ion-icon class="social-icon-tt" name="logo-tiktok"></ion-icon
+              ></a>
+              <a
+                class="footer-link"
+                href="https://www.tiktok.com/@daynghethanhrau"
+                >Tiktok</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <ul class="footer-nav">
+            <li class="footer-nav-link-yt">
+              <a
+                class="footer-link"
+                href="https://www.youtube.com/channel/UCClfsX9l_96ARs0UjL3TjKg"
+                ><ion-icon class="social-icon-yt" name="logo-youtube"></ion-icon
+              ></a>
+              <a
+                class="footer-link"
+                href="https://www.youtube.com/channel/UCClfsX9l_96ARs0UjL3TjKg"
+                >Youtube
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script>
+      var form = document.getElementById("sign-up");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(form.action, {
+          method: "POST",
+          body: new FormData(document.getElementById("sign-up")),
+        })
+          .then((response) => response.json())
+          .then((html) => {
+            // you can put any JS code here
+            window.open("index.html", "_blank");
+          });
+      });
+    </script>
+  </body>
+</html>
