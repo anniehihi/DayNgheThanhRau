@@ -530,7 +530,7 @@
 
 .cta .heading-secondary {
   /* color: #45260a; */
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 3.2rem;
 }
 
@@ -618,20 +618,20 @@
 }
 
 .social-icon-tt {
-  height: 4rem;
-  width: 4rem;
+  height: 8rem;
+  width: 8rem;
   color: #000;
 }
 
 .social-icon-yt {
-  height: 4rem;
-  width: 4rem;
+  height: 8rem;
+  width: 8rem;
   color: #ff0000;
 }
 
 .social-icon-fb {
-  height: 4rem;
-  width: 4rem;
+  height: 8rem;
+  width: 8rem;
   color: #0d8af0;
 }
 
