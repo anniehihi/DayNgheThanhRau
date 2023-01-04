@@ -692,3 +692,10 @@
 .footer-link:active {
   color: #555;
 }
+
+.research {
+  text-align: right;
+  margin-right: 20%;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
