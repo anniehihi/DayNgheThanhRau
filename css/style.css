@@ -49,12 +49,6 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #ffb600;
-}
-
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
-  background-color: #ffc800;
 }
 
 /* MOBILE */
@@ -541,11 +535,7 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
-    ),
+  background-image: 
     url("../img/avt.jpg");
   background-size: cover;
   background-position: center;

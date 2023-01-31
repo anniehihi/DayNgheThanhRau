@@ -155,3 +155,6 @@ checkFlexGap();
   }
 }
 */
+
+
+document.getElementById('date').value = Date();
