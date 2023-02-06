@@ -588,7 +588,7 @@
 }
 
 .grid--footer {
-  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .logo-col {
@@ -623,6 +623,12 @@
   height: 8rem;
   width: 8rem;
   color: #0d8af0;
+}
+
+.social-icon-phone{
+  height: 8rem;
+  width: 8rem;
+  color: green;
 }
 
 .copyright {
