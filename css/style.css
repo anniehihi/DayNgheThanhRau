@@ -701,7 +701,7 @@
 .hotline-phone-ring-wrap {
   position: fixed;
   bottom: 0;
-  left: 70%;
+  right: 0;
   z-index: 999999;
 }
 .hotline-phone-ring {
