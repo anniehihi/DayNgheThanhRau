@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #950715;
+  background-color: #856017;
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -80,7 +80,7 @@
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #950715;
+  background-color: #856017;
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
@@ -94,7 +94,7 @@
 /**************************/
 
 .section-hero {
-  background-color: #a0202c;
+  background-color: #856017;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -515,7 +515,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #950715, #860613);
+  background-image: linear-gradient(to right bottom, #856017, #856017);
   overflow: hidden;
 }
 
@@ -536,9 +536,9 @@
 }
 
 .cta-img-box {
-  background-image: 
-    url("../img/avt.jpg");
+  background-image: url("../img/quangbeo01\ \(1\).JPG");
   background-size: cover;
+  /* background-position: center; */
   background-position: center;
 }
 
@@ -626,7 +626,7 @@
   color: #0d8af0;
 }
 
-.social-icon-phone{
+.social-icon-phone {
   height: 6rem;
   width: 6rem;
   color: green;
@@ -714,13 +714,13 @@
   z-index: 11;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0);
-  transition: visibility .5s;
+  transition: visibility 0.5s;
   left: 0;
   bottom: 0;
   display: block;
 }
 .hotline-phone-ring-circle {
-	width: 115px;
+  width: 115px;
   height: 115px;
   top: 10px;
   left: 10px;
@@ -730,14 +730,14 @@
   border: 2px solid green;
   -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
   animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
-  transition: all .5s;
+  transition: all 0.5s;
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
   opacity: 0.5;
 }
 .hotline-phone-ring-circle-fill {
-	width: 77px;
+  width: 77px;
   height: 77px;
   top: 25px;
   left: 25px;
@@ -747,14 +747,14 @@
   border: 2px solid transparent;
   -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
   animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
-  transition: all .5s;
+  transition: all 0.5s;
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
 .hotline-phone-ring-img-circle {
-	background-color: green;
-	width: 55px;
+  background-color: green;
+  width: 55px;
   height: 55px;
   top: 37px;
   left: 37px;
@@ -775,14 +775,14 @@
   justify-content: center;
 }
 .hotline-phone-ring-img-circle .pps-btn-img {
-	display: -webkit-box;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 .hotline-phone-ring-img-circle .pps-btn-img img {
-	width: 20px;
-	height: 20px;
+  width: 20px;
+  height: 20px;
 }
 .hotline-bar {
   position: absolute;
